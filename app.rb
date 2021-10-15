@@ -6,15 +6,15 @@ class App
 
   def initialize
     @client = Twitter::REST::Client.new do |config|
-      config.consumer_key = ENV['TWITTER_CONSUMER_KEY']
-      config.consumer_secret = ENV['TWITTER_CONSUMER_SECRET']
-      config.access_token = ENV['TWITTER_ACCESS_TOKEN']
-      config.access_token_secret = ENV['TWITTER_ACCESS_SECRET']
+      config.consumer_key = ENV['Mx1wGw1SqsUxVbazaxousL5Y1']
+      config.consumer_secret = ENV['LcZnAHkWYvkX2QQUFYAIxXjq6pzMZdQ0pXaAtY7rE67vPgStYe']
+      config.access_token = ENV['1308010067380310018-le1bJPH3b8VyFQxk3qH2QB3HxBgAWq']
+      config.access_token_secret = ENV['i2xhlAS5PFSacTP7EFEzcvYagRUV30QEayIBf8XTZvkMB']
     end
 
     @wait_time = 10 * 60
 
-    @hashtags = '#daz3dart #3drenderbot #3dmodeling #3danimation #3drendering'
+    @hashtags = '#3Drendering #teamcolor'
   end
 
   def run
