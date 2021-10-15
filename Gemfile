@@ -5,4 +5,6 @@ gem 'twitter'
 
 gem 'thread_safe'
 
-ruby "~> 2.2.9"
+gem "rails", "3.0.0.rc"
+
+source "http://rubygems.org"
