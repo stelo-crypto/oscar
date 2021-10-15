@@ -6,5 +6,3 @@ gem 'twitter'
 gem 'thread_safe'
 
 ruby "~> 2.2.9"
-
-source "http://rubygems.org"
