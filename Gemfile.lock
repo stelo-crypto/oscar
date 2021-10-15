@@ -51,7 +51,7 @@ DEPENDENCIES
   twitter
 
 RUBY VERSION
-   ruby 2.2.9p480
+   ruby 2.2.29
 
 BUNDLED WITH
    1.16.1
