@@ -5,4 +5,4 @@ gem 'twitter'
 
 gem 'thread_safe'
 
-ruby "2.2.9"
+ruby "2.6.8"
